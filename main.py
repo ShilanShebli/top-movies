@@ -11,6 +11,8 @@ from dotenv import load_dotenv
 load_dotenv('/Users/shilzli/Documents/Python-Env/EnvironmentVariables/env.txt')
 API_KEY = os.getenv("TMDB_API")
 
+app = Flask(__name__)
+
 
 '''
 Red underlines? Install the required packages first: 
